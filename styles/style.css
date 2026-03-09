@@ -10,6 +10,9 @@
     margin: 0px;
     padding: 0px;
 }
+.second-background-color{
+    background-color: #fff8f3;
+}
 body{
     margin: 0;
 }
@@ -27,7 +30,15 @@ body{
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
-
+}
+.section-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 15px;
+    color: #757575;
 }
 
 /* header  */
@@ -36,7 +47,7 @@ body{
     background-repeat: no-repeat;
     background-position: left center, bottom right;
     background-size: auto 90%, 650px 330px;
-    background-color: rgb(241, 232, 229);
+    background-color: #fff8f3;
 }
 
 /* Nav Style */
@@ -108,4 +119,32 @@ nav ul{
 }
 .btn-primary i{
     margin-right: 8px;
+}
+
+/* Main Styles */
+main{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+/* About Style  */
+.about{
+    border-radius: 10px;
+    padding: 110px 130px;
+    text-align: center;
+    margin-top: 80px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.item-description{
+    font-weight: 500;
+}
+.item-title{
+    color: gray;
+}
+.about > h3{
+    margin-bottom: 20px;
 }
